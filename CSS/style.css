@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+:root{
+    font-size: 62.5%; /* 1rem = 10px */
+
+    --var--Primarycolor--Soft--red:hsl(7, 99%, 70%);
+    --var--Primarycolor--yellow: hsl(51, 100%, 49%);
+    --var--Primarycolor--Dark-Desaturated-Cyan:hsl(7, 99%, 70%);
+    --var--Primarycolor--Dark-blue:hsl(198, 62%, 26%);
+    --var--Primarycolor-Dark-Moderate-Cyan:hsl(168, 34%, 41%);
+    --var--Neutralcolor-Very-Dark-Sesaturated-Blue:hsl(212, 27%, 19%);
+    --var--Neutralcolor-Very-Dark-Grayish-Blue:hsl(213, 9%, 39%);
+    --var--Neutralcolor-Dark-Grayish-Blue:hsl(232, 10%, 55%);
+    --var--Neutralcolor-Grayish-Blue:hsl(210, 4%, 67%);
+    --var--Neutralcolor-White:hsl(0, 0%, 100%);
+
+    /* Fontes:
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;*/
+}
+
+/*=====================BODY====================*/
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/*=====================WRAPER====================*/
+.wrapper{
+    margin: auto;
+    width: min(100%,144rem);
+}
+
+
+/*=====================HEADER====================*/ 
+#header{
+    background-image:url(../images/desktop/image-header.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+#header .wrapper .navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+
+.wrapper .navigation .logo{
+   width: 5rem;
+  
+}
+
+
+
+/*=====================NAVIGATION====================*/ 
+.navigation .links a{
+margin-left: 0.7rem;
+text-decoration: none;
+color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
+}
+
+
+/*=====================APRESENTATION====================*/ 
+.wrapper .container-apresentation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-apresentation .arrow-down img{
+    width: 2rem;
+}
+
+
+/*=====================MEDIA====================*/ 
+
+@media screen and (max-width: 1366px){
+    .wrapper{
+        margin: auto;
+        width: min(90%,136rem);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        margin: auto;
+        width: min(90%,76rem);
+    }
+}
+
+@media screen and (max-width: 360px){
+    .wrapper{
+        margin: auto;
+        width: min(90%,36rem);
+    }
+
+}
