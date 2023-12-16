@@ -47,18 +47,22 @@ body{
 #header .wrapper .navigation{
     display: flex;
     justify-content: space-between;
-    padding-block: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8rem;
 }
 
 .wrapper .navigation .logo{
    width: 5rem;
+   margin-block: auto;
   
 }
 
 
-
 /*=====================NAVIGATION====================*/ 
 .navigation .links a{
+width: 5rem;
 margin-left: 0.7rem;
 text-decoration: none;
 color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
@@ -72,9 +76,20 @@ color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 9.5rem;
 }
 
-.container-apresentation .arrow-down img{
+.wrapper .apresentation h1{
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color:var(--var--Neutralcolor-White);
+    margin-bottom: 2rem;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+}
+
+.container-apresentation .arrow .arrow-down{
     width: 2rem;
 }
 
@@ -100,5 +115,63 @@ color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
         margin: auto;
         width: min(90%,36rem);
     }
+    
+
+    
+/*=====================NAVIGATION====================*/ 
+.wrapper .navigation{
+    position: relative;
+}
+
+
+    .wrapper .navigation .logo{
+    height: 1rem;
+   
+    }
+
+    .hamburger-menu {
+        cursor: pointer;
+      }
+      
+      .bar{
+        width: 15px;
+        height: 1px;
+        background-color: #fff;
+        margin: 4px 0;
+        transition: 0.4s;
+      }
+
+     .wrapper .navigation .links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 21rem;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--var--Neutralcolor-White);
+        text-align: center;
+        padding: 2rem;
+        gap: 1.5rem;
+        height: 12.5rem;
+       
+    }
+
+    .navigation .links a{
+        margin: auto;
+    
+    }
+
+    .navigation .links a:hover{
+        background-color: var(--var--Primarycolor--yellow);
+        border-radius: 20rem;
+    }
+
+    #header .wrapper .links-show{
+        display: flex;
+        transition: right 0.4s ease;
+        
+    }
+    
 
 }
