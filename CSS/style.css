@@ -31,11 +31,14 @@ body{
     height: 100vh;
 }
 
-/*=====================WRAPER====================*/
-.wrapper{
-    margin: auto;
-    width: min(100%,144rem);
+body .wrapper{
+        margin: auto;
+        width: min(100%,37.5rem);
+   
+    
 }
+
+/*=====================WRAPER====================*/
 
 
 /*=====================HEADER====================*/ 
@@ -50,26 +53,30 @@ body{
     padding-top: 2rem;
     padding-bottom: 4rem;
     font-family: 'Barlow', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .wrapper .navigation .logo{
    width: 5rem;
    margin-block: auto;
+   margin-left: 0.5rem;
   
 }
 
-
-/*=====================NAVIGATION====================*/ 
 .navigation .links a{
 width: 5rem;
-margin-left: 0.7rem;
+margin-left: 1rem;
 text-decoration: none;
 color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
+font-weight: 600;
+}
+
+.navigation .links a:hover{
+    color: var(--var--Neutralcolor-Very-Dark-Sesaturated-Blue);
+    transition: all 0.5s ease;
 }
 
 
-/*=====================APRESENTATION====================*/ 
 .wrapper .container-apresentation{
     width: 100%;
     display: flex;
@@ -93,6 +100,180 @@ color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
     width: 2rem;
 }
 
+/*=====================PRINCIPAL====================*/ 
+#principal .principal-content{
+    width: 100%;
+    height: 100%;
+}
+
+
+#principal .principal-content .content-img{
+   display: block;
+   margin: auto;
+   width: min(25rem,100%);
+}
+
+.principal-content .text-content{
+    width: min(80%);
+    margin: auto;
+}
+
+
+.principal-content .text-content h3{
+    font-size: 2.1rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    color: var(--var--Neutralcolor-Very-Dark-Sesaturated-Blue);
+    text-align: center;
+}   
+
+.principal-content .text-content p{
+    opacity: 0.7;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-family: 'Barlow', sans-serif;
+    color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
+    text-align: center;
+} 
+
+.principal-content .text-content a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    color: var(--var--Neutralcolor-Very-Dark-Sesaturated-Blue);
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+
+}
+
+.principal-content .img-back-graphic{
+    background-image: url("/images/mobile/image-graphic-design.jpg");
+    background-position:top;
+    background-size: cover;
+    height: 39rem;
+    width: min(25rem,100%);
+    margin: auto;
+    
+ 
+
+}
+
+.principal-content .img-back-graphic .text-content{
+  padding-top: 23rem;
+  width: min(87%);
+}
+
+.img-back-graphic .text-content h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.img-back-graphic .text-content p{
+    opacity: 1;
+    font-size: 1rem;
+    color:var(--var--Neutralcolor-Very-Dark-Sesaturated-Blue)
+}
+
+
+.principal-content .img-back-photography{
+    background-image: url("/images/mobile/image-photography.jpg");
+    background-position:top;
+    background-size: cover;
+    height: 39rem;
+    width: min(25rem,100%);
+    margin: auto;
+}
+
+
+.principal-content .img-back-photography .text-content{
+    padding-top: 23rem;
+    width: min(87%);
+ 
+  }
+
+.img-back-photography .text-content h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+.img-back-photography .text-content p{
+  opacity: 1;
+  font-size: 1rem;
+  color:var(--var--Neutralcolor-Very-Dark-Sesaturated-Blue)
+
+}
+
+/*=====================CLIENT-TESTIMONIALS====================*/ 
+
+#client-testimonials{
+    width: 100%;
+}
+
+#client-testimonials .clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+#client-testimonials .clients .client-feedback{
+    width: min(80%);
+}
+
+#client-testimonials .clients h3{
+    opacity: 0.7;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    color:var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+}
+
+.clients .client-feedback .client-image{
+    display: block;
+    margin: auto;
+    width: 4rem;
+    border-radius: 20rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.clients .client-feedback p{
+    opacity: 1;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-family: 'Barlow', sans-serif;
+    color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
+    text-align: center;
+}
+
+.clients .client-feedback h5{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.clients .client-feedback h6{
+    opacity: 0.5;
+    font-size: 0.8rem;
+    font-family: 'Barlow', sans-serif;
+    color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
+    text-align: center;
+    margin-top: 1rem;
+}
 
 /*=====================MEDIA====================*/ 
 
@@ -108,6 +289,14 @@ color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
         margin: auto;
         width: min(90%,76rem);
     }
+
+    /*=====================NAVIGATION====================*/ 
+
+    .wrapper .navigation .logo{
+    height: 1rem;
+    }
+
+ 
 }
 
 @media screen and (max-width: 360px){
@@ -116,62 +305,42 @@ color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
         width: min(90%,36rem);
     }
     
-
-    
-/*=====================NAVIGATION====================*/ 
-.wrapper .navigation{
-    position: relative;
-}
-
-
-    .wrapper .navigation .logo{
-    height: 1rem;
-   
-    }
-
+    /*=====================NAVIGATION====================*/ 
     .hamburger-menu {
         cursor: pointer;
       }
-      
-      .bar{
-        width: 15px;
-        height: 1px;
-        background-color: #fff;
-        margin: 4px 0;
-        transition: 0.4s;
-      }
 
-     .wrapper .navigation .links{
+
+    .wrapper .navigation .links{
         display: none;
         flex-direction: column;
         position: absolute;
         width: 21rem;
-        top: 60px;
         left: 50%;
         transform: translateX(-50%);
         background-color: var(--var--Neutralcolor-White);
         text-align: center;
         padding: 2rem;
-        gap: 1.5rem;
-        height: 12.5rem;
+        height: 15.5rem;
        
-    }
+    } 
 
     .navigation .links a{
         margin: auto;
+        width: 7.5rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
     }
 
+       
     .navigation .links a:hover{
         background-color: var(--var--Primarycolor--yellow);
         border-radius: 20rem;
     }
 
-    #header .wrapper .links-show{
-        display: flex;
-        transition: right 0.4s ease;
-        
-    }
     
 
 }
