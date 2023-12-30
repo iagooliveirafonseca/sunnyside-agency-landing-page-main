@@ -116,12 +116,13 @@ font-weight: 600;
 .principal-content .text-content{
     width: min(80%);
     margin: auto;
+    padding-bottom: 1.5rem;
 }
 
 
 .principal-content .text-content h3{
     font-size: 2.1rem;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     font-weight: bold;
     font-family: 'Fraunces', serif;
     color: var(--var--Neutralcolor-Very-Dark-Sesaturated-Blue);
@@ -217,6 +218,7 @@ font-weight: 600;
 }
 
 #client-testimonials .clients{
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,7 +227,7 @@ font-weight: 600;
 }
 
 #client-testimonials .clients .client-feedback{
-    width: min(80%);
+    width: min(84%);
 }
 
 #client-testimonials .clients h3{
@@ -274,6 +276,98 @@ font-weight: 600;
     text-align: center;
     margin-top: 1rem;
 }
+
+
+/*=====================TEMPLATE-FOOTER====================*/ 
+#template-footer{
+    margin-top: 5rem;
+    width: 100%;
+ 
+  
+}
+
+#template-footer .tamplate-image{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#template-footer .tamplate-image #image-footer{
+    display: block;
+    width: 50%;
+    height: 12rem;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+
+#template-footer .image-footer-01{ 
+   background-image: url("/images/mobile/image-gallery-milkbottles.jpg"); 
+}
+
+#template-footer .image-footer-02{
+    background-image: url("/images/mobile/image-gallery-orange.jpg"); 
+}
+
+#template-footer .image-footer-03{
+    background-image: url("/images/mobile/image-gallery-cone.jpg");   
+}
+
+#template-footer .image-footer-04{
+    background-image: url("/images/mobile/image-gallery-sugar-cubes.jpg");   
+}
+
+/*=====================FOOTER====================*/ 
+#footer{
+    width: 100%;
+}
+
+#footer .wrapper div{
+    background-color: rgb(144, 212, 197);}
+
+#footer .wrapper h1{
+    color:rgb(46, 117, 101);
+    font-size: 2.2rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#footer .wrapper .footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+}
+
+.wrapper .footer-links a{
+   opacity: 0.7;
+   text-decoration: none;
+   color: var(--var--Neutralcolor-Very-Dark-Sesaturated-Blue);
+   font-family: 'Barlow', sans-serif;
+
+}
+
+.footer-links a li{
+    list-style: none;
+ }
+
+
+#footer .wrapper .footer-links-social{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 7rem;
+    padding-block: 3rem;
+    
+}
+
+
+.wrapper .footer-links-social img{
+    width: 1rem;
+}
+
+
 
 /*=====================MEDIA====================*/ 
 
