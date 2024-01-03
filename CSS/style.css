@@ -225,16 +225,17 @@ font-weight: 600;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 #client-testimonials .clients .client-feedback{
-    width: min(84%);
+    width: min(80%);
+    margin-top: 2rem;
 }
 
 #client-testimonials .clients h3{
     opacity: 0.7;
-    font-size: 1rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     text-align: center;
@@ -246,7 +247,7 @@ font-weight: 600;
 .clients .client-feedback .client-image{
     display: block;
     margin: auto;
-    width: 4rem;
+    width: 5rem;
     border-radius: 20rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
@@ -254,7 +255,7 @@ font-weight: 600;
 
 .clients .client-feedback p{
     opacity: 1;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     line-height: 1.6rem;
     font-family: 'Barlow', sans-serif;
     color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
@@ -264,7 +265,7 @@ font-weight: 600;
 .clients .client-feedback h5{
     font-family: 'Fraunces', serif;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     text-align: center;
     margin-top: 2rem;
 }
@@ -272,7 +273,7 @@ font-weight: 600;
 
 .clients .client-feedback h6{
     opacity: 0.5;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-family: 'Barlow', sans-serif;
     color: var(--var--Neutralcolor-Very-Dark-Grayish-Blue);
     text-align: center;
@@ -282,7 +283,7 @@ font-weight: 600;
 
 /*=====================TEMPLATE-FOOTER====================*/ 
 #template-footer{
-    margin-top: 5rem;
+    margin-top: 8rem;
     width: 100%;
  
   
@@ -296,7 +297,7 @@ font-weight: 600;
 #template-footer .tamplate-image #image-footer{
     display: block;
     width: 50%;
-    height: 12rem;
+    height: 19rem;
     background-position: center;
     background-size: cover;
     background-color: black;
@@ -324,12 +325,18 @@ font-weight: 600;
     width: 100%;
 }
 
+#footer .wrapper{
+    background-color: rgb(144, 212, 197);
+}
+
 #footer .wrapper div{
-    background-color: rgb(144, 212, 197);}
+    width: min(90%);
+    margin: auto;
+  }
 
 #footer .wrapper h1{
     color:rgb(46, 117, 101);
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     font-family: 'Fraunces', serif;
     font-weight: 900;
     text-align: center;
@@ -353,6 +360,7 @@ font-weight: 600;
 
 .footer-links a li{
     list-style: none;
+    font-size: 1.4rem;
  }
 
 
@@ -366,7 +374,7 @@ font-weight: 600;
 
 
 .wrapper .footer-links-social img{
-    width: 1rem;
+    width: 1.5rem;
 }
 
 
